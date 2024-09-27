@@ -25,10 +25,9 @@ body {
     height: 40px;
     padding: 0 20px;
     border-radius: 20px;
-    /* background-color: rgb(115, 226, 3); */
     margin-right: 10px;
     background: rgb(253,29,29);
-background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(12,132,181,1) 73%, rgba(115,226,3,1) 100%);
+    background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(12,132,181,1) 73%, rgba(115,226,3,1) 100%);
     font-size: 20px;
     outline: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
