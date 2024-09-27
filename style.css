@@ -1,0 +1,102 @@
+body {
+    background-image: url(/image/AI\ GENERATED\ WALLPAPER\ 4K\ -\ MAGIC\ OWL.png);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.form {
+    width: 700px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 50px;
+    padding: 20px 15px 20px;
+    background-color: rgba(219, 219, 219, 0.382);
+    border-radius: 20px;
+}
+
+.input {
+    border: none;
+    width: 500px;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 20px;
+    /* background-color: rgb(115, 226, 3); */
+    margin-right: 10px;
+    background: rgb(253,29,29);
+background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(12,132,181,1) 73%, rgba(115,226,3,1) 100%);
+    font-size: 20px;
+    outline: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.add {
+    height: 40px;
+    width: 100px;
+    background-color:rgb(115, 226, 3);
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+    border: solid 2px transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 0.3s ease-in-out;
+}
+
+.add:hover {
+    border: solid 2px black;
+    cursor: pointer;
+}
+
+.tasks {
+    width: 700px;
+    margin: auto;
+    padding: 20px 15px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(219, 219, 219, 0.12);
+    border-radius: 20px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    background-color: rgb(115, 226, 3);
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 5px auto;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.del {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 24px;
+    border: solid 2px transparent;
+    border-radius: 10px;
+    font-size: 13px;
+    background-color: red;
+    transition: 0.5s;
+}
+
+.del:hover {
+    border: solid 2px black;
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
